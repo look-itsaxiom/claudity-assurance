@@ -1,0 +1,15 @@
+{
+  "name": "claudity-assurance",
+  "version": "0.1.0",
+  "description": "Self-learning QA plugin — builds testing knowledge, verifies BDDs, guards regressions",
+  "author": {
+    "name": "Chase Skibeness",
+    "url": "https://github.com/look-itsaxiom"
+  },
+  "repository": "https://github.com/look-itsaxiom/claudity-assurance",
+  "license": "MIT",
+  "keywords": ["qa", "testing", "bdd", "verification", "regression", "solo-dev"],
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "hooks": "./hooks/hooks.json"
+}

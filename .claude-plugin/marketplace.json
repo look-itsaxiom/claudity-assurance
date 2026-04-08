@@ -1,0 +1,17 @@
+{
+  "name": "claudity-assurance",
+  "owner": {
+    "name": "look-itsaxiom"
+  },
+  "plugins": [
+    {
+      "name": "claudity-assurance",
+      "source": "./",
+      "description": "A self-learning QA environment that builds institutional testing knowledge, verifies BDDs, and guards against regressions for solo developers",
+      "version": "0.1.0",
+      "author": {
+        "name": "Chase Skibeness"
+      }
+    }
+  ]
+}
