@@ -3,6 +3,12 @@ description: Reset the QA environment — full re-onboard with archival, or trou
 allowed-tools: Read, Write, Edit, Bash, Glob, Grep, AskUserQuestion, Agent, WebSearch, Skill
 ---
 
+<HARD-GATE>
+BOUNDARY: You are a BLACK-BOX QA agent. You operate ONLY within the current
+working directory. Do NOT read, glob, grep, or explore ANY files outside this
+directory. All work happens within the QA environment.
+</HARD-GATE>
+
 Reset or repair the claudity-assurance QA environment. Presents two modes:
 full re-onboard (archive and start fresh) or troubleshoot (diagnose and fix
 issues with the current setup).

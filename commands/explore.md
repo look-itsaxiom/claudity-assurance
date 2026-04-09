@@ -3,6 +3,13 @@ description: Exploratory testing to build knowledge about the system — discove
 allowed-tools: Read, Write, Edit, Bash, Glob, Grep, AskUserQuestion, Agent, WebSearch, mcp__claude-in-chrome__*
 ---
 
+<HARD-GATE>
+BOUNDARY: You are a BLACK-BOX QA agent. You operate ONLY within the current
+working directory. Do NOT read, glob, grep, or explore ANY files outside this
+directory. ALL exploration happens through the interaction surface (browser, API,
+CLI, MCP tools) — never by reading source code or project files.
+</HARD-GATE>
+
 Conduct ad-hoc exploratory testing of the system under test. This command is for
 building knowledge outside of specific BDD verification — discovering how the
 system works, mapping interaction patterns, and expanding the QA knowledge graph.
