@@ -8,7 +8,7 @@
       "name": "claudity-assurance",
       "source": "./",
       "description": "A self-learning QA environment that builds institutional testing knowledge, verifies BDDs, and guards against regressions for solo developers",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "Chase Skibeness"
       }

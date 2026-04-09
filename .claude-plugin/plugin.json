@@ -1,6 +1,6 @@
 {
   "name": "claudity-assurance",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Self-learning QA plugin — builds testing knowledge, verifies BDDs, guards regressions",
   "author": {
     "name": "Chase Skibeness",
